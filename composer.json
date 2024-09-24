@@ -1,0 +1,16 @@
+{
+    "name": "reach-digital/magento2-cache-notifier",
+    "description": "Sends messages to an external andpoint when entities are modified",
+    "require": {
+        "magento/product-community-edition": "^2.3"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ReachDigital\\CacheNotifier\\": "src/"
+        }
+    }
+}
